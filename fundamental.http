@@ -1,0 +1,6 @@
+@fundamental_HostAddress = http://localhost:5146
+
+GET {{fundamental_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
