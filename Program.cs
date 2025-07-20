@@ -126,14 +126,3 @@ public class temp : IDisposable
         GC.SuppressFinalize(this);
     }
 }
-
-
-
-class Temp1
-{
-    // Destructor
-    ~Temp1()
-    {
-        Console.WriteLine("Object destroyed");
-    }
-}
